@@ -1,0 +1,14 @@
+logs
+*.log
+.env
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+node_modules/
+ecosystem.config.js
+.vscode
+dist

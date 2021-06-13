@@ -1,0 +1,29 @@
+{
+  "name": "homerower-electron",
+  "version": "0.0.1",
+  "description": "A rowing machine webapp for friendly in-house competitions",
+  "scripts": {
+    "start": "electron .",
+    "lint": "standard --fix",
+    "postinstall": "electron-builder install-app-deps",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "main": "main.js",
+  "license": "MIT",
+  "repository": "ecaron/homerower-electron",
+  "engines": {
+    "node": ">=12"
+  },
+  "author": {
+    "name": "Eric Caron",
+    "url": "https://github.com/ecaron"
+  },
+  "devDependencies": {
+    "electron": "^10.4.7",
+    "electron-builder": "^22.11.7"
+  },
+  "build": {
+    "appId": "com.ericcaron.homerower"
+  }
+}
